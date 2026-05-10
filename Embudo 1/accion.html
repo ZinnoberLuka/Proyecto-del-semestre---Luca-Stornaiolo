@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Solicita información sobre Medios Interactivos | USFQ</title>
+  <meta name="description" content="Completa el formulario para recibir información personalizada sobre Diseño de Medios Interactivos, cambio de carrera, materias y oportunidades profesionales." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Luca Stornaiolo" />
+
+  <link rel="canonical" href="https://TU-USUARIO.github.io/TU-REPOSITORIO/embudo-1/accion.html" />
+
+  <meta property="og:title" content="Solicita información sobre Medios Interactivos | USFQ" />
+  <meta property="og:description" content="Recibe una guía gratuita y asesoría personalizada para conocer si Medios Interactivos es la carrera adecuada para ti." />
+  <meta property="og:type" content="website" />
+
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9KCXBFQWPS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9KCXBFQWPS');
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand">
+        <img class="logo-img" src="assets/logo-usfq-medios.png" alt="Logo USFQ Medios Interactivos" />
+      </div>
+      <button class="burger" aria-label="Menú">☰</button>
+    </header>
+
+    <div class="content">
+      <h1 class="hero-title">Da el siguiente paso</h1>
+      <p class="hero-subtitle">Recibe información personalizada sobre la carrera</p>
+
+      <div class="divider"></div>
+
+      <div class="form-card">
+        <div class="form-header">Déjanos tus datos</div>
+        <form id="leadForm" class="form-body" novalidate>
+          <div class="field">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Tu nombre" />
+            <div class="error" id="nameError">Ingresa tu nombre.</div>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="correo@ejemplo.com" />
+            <div class="error" id="emailError">Ingresa un email válido.</div>
+          </div>
+
+          <div class="field">
+            <label for="phone">Teléfono</label>
+            <input id="phone" name="phone" type="tel" placeholder="0999999999" />
+            <div class="error" id="phoneError">Ingresa un teléfono válido.</div>
+          </div>
+
+          <div class="field">
+            <label for="career">¿En qué carrera estás actualmente?</label>
+            <input id="career" name="career" type="text" placeholder="Ej: Ingeniería en Sistemas" />
+          </div>
+
+          <div class="checkbox-row">
+            <input id="switchCareer" name="switchCareer" type="checkbox" />
+            <label for="switchCareer">Estoy considerando cambiarme de carrera</label>
+          </div>
+
+          <div style="margin-top: 20px;">
+            <button class="btn btn-primary" type="submit">Quiero más información →</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="lead-box">
+        <h2 class="subsection-title">¿Qué recibirás?</h2>
+        <ul class="faq-list" style="margin-top: 14px;">
+          <li>• Guía para cambiarte de carrera</li>
+          <li>• Información sobre materias</li>
+          <li>• Oportunidades laborales</li>
+          <li>• Asesoría personalizada</li>
+        </ul>
+      </div>
+
+      <div class="lead-magnet">
+        <div class="lead-chip">Lead magnet</div>
+        <h2 style="font-size: 24px; margin-bottom: 10px;">Mini guía gratuita</h2>
+        <p style="font-size: 17px; line-height: 1.4; margin-bottom: 12px;">“5 señales de que Medios Interactivos puede ser para ti”</p>
+        <ul style="padding-left: 18px; margin: 0; line-height: 1.5;">
+          <li>Perfil ideal del estudiante</li>
+          <li>Diferencias con otras carreras</li>
+          <li>Posibles salidas laborales</li>
+          <li>Consejos antes de cambiarte</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

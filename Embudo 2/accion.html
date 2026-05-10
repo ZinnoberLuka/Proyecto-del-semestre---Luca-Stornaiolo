@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Recibe orientación sobre Medios Interactivos | USFQ</title>
+  <meta name="description" content="Completa el formulario para recibir orientación sobre Diseño de Medios Interactivos, una carrera para estudiantes interesados en creatividad, tecnología y diseño digital." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Luca Stornaiolo" />
+
+  <link rel="canonical" href="https://TU-USUARIO.github.io/TU-REPOSITORIO/embudo-2/accion.html" />
+
+  <meta property="og:title" content="Recibe orientación sobre Medios Interactivos | USFQ" />
+  <meta property="og:description" content="Recibe información personalizada para decidir si Diseño de Medios Interactivos es una buena opción para ti." />
+  <meta property="og:type" content="website" />
+
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9KCXBFQWPS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9KCXBFQWPS');
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand">
+        <img class="logo-img" src="assets/logo-usfq-medios.png" alt="Logo USFQ Medios Interactivos" />
+      </div>
+      <button class="burger" aria-label="Menú">☰</button>
+    </header>
+
+    <div class="content">
+      <h1 class="hero-title">Da el siguiente paso</h1>
+      <p class="hero-subtitle">Recibe información personalizada sobre la carrera</p>
+
+      <div class="divider"></div>
+
+      <div class="form-card">
+        <div class="form-header">Déjanos tus datos</div>
+        <form id="leadForm" class="form-body" novalidate>
+          <div class="field">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Tu nombre" />
+            <div class="error" id="nameError">Ingresa tu nombre.</div>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="correo@ejemplo.com" />
+            <div class="error" id="emailError">Ingresa un email válido.</div>
+          </div>
+
+          <div class="field">
+            <label for="phone">Teléfono</label>
+            <input id="phone" name="phone" type="tel" placeholder="0999999999" />
+            <div class="error" id="phoneError">Ingresa un teléfono válido.</div>
+          </div>
+
+          <div class="field">
+            <label for="interest">¿En qué estás interesada?</label>
+            <input id="interest" name="interest" type="text" placeholder="Ej: diseño, videojuegos, web..." />
+          </div>
+
+          <div class="checkbox-row">
+            <label for="unsure" style="flex:1;">No estoy segura de qué estudiar</label>
+            <input id="unsure" name="unsure" type="checkbox" />
+          </div>
+        </form>
+      </div>
+
+      <div class="lead-box">
+        <h2 style="font-size: 28px; margin-bottom: 14px;">Te ayudaremos con:</h2>
+        <ul class="faq-list" style="font-weight:700; font-size:21px;">
+          <li>• Orientación vocacional</li>
+          <li>• Información clara sobre la carrera</li>
+          <li>• Oportunidades laborales</li>
+          <li>• Asesoría personalizada</li>
+        </ul>
+      </div>
+
+      <button form="leadForm" class="btn btn-primary" type="submit">Quiero más información →</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
